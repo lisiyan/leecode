@@ -13,7 +13,7 @@ public class PopulatingNextRightPointersinEachNode_116 {
         		if(temp.left!=null){
         			temp.left.next=temp.right;
         		}
-        		if(temp.next!=null){
+        		if(temp.right!=null&temp.next!=null){
         			temp.right.next=temp.next.left;
         		}
         		temp=temp.next;
