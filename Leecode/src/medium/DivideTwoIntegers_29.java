@@ -51,6 +51,7 @@ public class DivideTwoIntegers_29 {
     }
 	public static void main(String argv[]){
 		int i=-2147483648;
-		System.out.println(i-1610612736);
+		int j=-1;
+		System.out.println(i/j);
 	}
 }
